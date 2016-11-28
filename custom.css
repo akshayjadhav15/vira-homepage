@@ -1,0 +1,213 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lora', serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #424242;
+    margin-bottom: 35px;
+    margin-top: 0;
+}
+h3{
+    font-size: 21px;
+}
+p {
+    font-size: 16px;
+    font-style: italic;
+    color: #818181;
+}
+.hide-menu{
+    margin-top: -377px;
+}
+.menu-item ul li a {
+    padding: 15px 0;
+    display: block;
+    list-style-type: none;
+    color: #fff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.menu-item{
+    background-color: #1a1a1a;
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.menu-item ul{
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.bg-img{
+    background-image: url('img/main-bg.jpg');
+    height: 100vh;
+    position: relative;
+    min-height: 659px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg-img div {
+    z-index: 1;
+    position: relative;
+}
+.navbar-vira{
+    background-image: none;
+    background-color: transparent;
+    margin-bottom: 0;
+    border-radius: 0;
+    border-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+.navigation-bar {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 15px 0;
+    font-size: 30px;
+}
+.navigation-bar a{
+    color:#fff;
+}
+.m:after {
+    content: 'MENU';
+    position: absolute;
+    left: -65px;
+    top: 10px;
+    color: #fff;
+    font-size: 16px;
+}
+.menu{
+  display: inline-block;
+}
+.vira-btn {
+    border-color:#fff;
+    font-style: italic;
+    color: #fff;
+    border-radius: 0;
+    letter-spacing: 3px;
+    padding: 15px 80px;
+    margin-bottom: 30px;
+    background-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+.vira-btn:hover{
+    background-color: #fff;
+    color:#000;
+}
+.intro-box{
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+    display: table;
+}
+ .intro h1, .intro p{
+    color: #fff;
+    letter-spacing: 2px;
+}
+.intro{
+    display: table-cell;
+    vertical-align: middle;  
+}
+h1{
+    font-size: 45px;
+    margin: 0 auto;
+}
+.intro-box p{
+    font-size: 32px;
+    padding-top: 0;
+    padding-bottom: 40px;
+    font-style: italic;
+}
+.section{
+    text-align: center;
+    padding:100px 0; 
+}
+.about{
+    background-color: #f8f8f8;
+}
+.title{
+    position: relative;
+    margin-bottom: 100px;
+}
+.title:after{
+    content: '';
+    height: 5px;
+    width: 40px;
+    background-color: #62aa94;
+    position: absolute;
+    top: 81px;
+    left: calc(50% - 20px);
+}
+.about img{
+    display: block;
+    margin: 30px auto;
+}
+.vira-header{
+    margin-bottom: 45px;
+}
+.vira-icon{
+   border: 1px solid #51c2b9;
+    border-radius: 100%;
+    display: inline-block;
+    height: 120px;
+    width: 120px;
+    line-height: 120px;
+    position: relative; 
+}
+.vira-icon:after{
+    content: '';
+    height: 100px;
+    width: 100px;
+    background-color: #51c2b9;
+    border-radius: 100%;
+    position: absolute;
+    top: 9px;
+    left: 9px;
+}
+.icon{
+    color: #fff;
+    font-size: 30px;
+    position: relative;
+    z-index: 1;
+}
+.vira-content h3{
+    position: relative;
+    margin-bottom: 60px;
+}
+.vira-content h3:after{
+    content: '';
+    height: 1px;
+    width: 44px;
+    background-color: #62aa94;
+    position: absolute;
+    top: 52px;
+    left: calc(50% - 22px);
+}
+.vira-content p{
+    font-size: 15px;
+}
+.img{
+    background-image: url('img/design-expert.jpg');
+    height: 540.08px;
+    background-size: cover;
+}
+.vira-quote{
+    background-image: url('img/subscribebg.jpg');
+    background-size: cover;
+    background-position-y: 25%;
+}
+.vira-quote p{
+    font-size: 32px;
+    color:#fff;
+}
+.vira-quote .author{
+    font-size: 21px;
+    margin-bottom: 40px;
+}
+.quote{
+    margin-bottom: 40px;
+}
+    
