@@ -194,10 +194,23 @@ h1{
     height: 540.08px;
     background-size: cover;
 }
+.expert p {
+    line-height: 200%;
+}
+.slide{
+    margin-left: 20px;
+}
+.carousel-indicators{
+    margin-bottom: -74px;
+}
+.carousel-indicators li{
+   background-color: #51c2b9;
+}
 .vira-quote{
     background-image: url('img/subscribebg.jpg');
     background-size: cover;
     background-position-y: 25%;
+    background-size: 100%;
 }
 .vira-quote p{
     font-size: 32px;
@@ -210,4 +223,80 @@ h1{
 .quote{
     margin-bottom: 40px;
 }
-    
+.img-responsive{
+    margin-bottom: 45px;
+}
+.watch-img{
+    background-image: url('img/watch.jpg');
+    background-size: cover;
+    background-position-y: 50%;
+    font-style: italic;
+    font-size: 32px;
+    color: #fff;
+    padding: 150px 0;
+}
+.watch a {
+    border: 2px solid #fff;
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 70px;
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+    padding: 0;
+    font-size: 21px;
+    color: #fff;
+}
+.watch a:hover{
+    background-color: #fff;
+}
+.social-icon{
+    margin-top: 30px;
+}
+.social-icon a{
+    display: inline-block;
+    list-style-type: none;
+    border: 2px solid #51c2b9;
+    margin-right: 5px;
+    background-color: #51c2b9;
+    color: #fff;
+    font-size: 18px;
+    line-height: 32px;
+    width: 36px;
+}
+.social-icon a:hover{
+    background-color: #fff;
+    color:#51c2b9;
+}
+.subscribe{
+    background-image: url('img/sub.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 60%;
+}
+.form-control{
+    border-radius: 0;
+    padding: 25px;
+    font-size: 18px;
+    font-style: italic;
+    background-color: transparent;
+
+}
+.subscribe p {
+    color: #fff;
+    font-size: 32px;
+    margin-bottom: 35px;
+}
+.subscribe .form-control {
+    width: 320px;
+    margin-bottom: 0;
+    border-color: #fff;
+    color: #fff;
+}
+.subscribe .vira-btn {
+    margin-bottom: 0;
+    color: #424242;
+    font-weight: 700;
+    border-color: #fff;
+    background-color: #fff;
+}
