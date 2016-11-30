@@ -173,6 +173,9 @@ h1{
     position: relative;
     z-index: 1;
 }
+.vira-card{
+    margin-bottom: 45px;
+}
 .vira-content h3{
     position: relative;
     margin-bottom: 60px;
