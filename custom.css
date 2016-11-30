@@ -273,6 +273,21 @@ h1{
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: 60%;
+    position: relative;
+   
+}
+.subscribe div{
+    z-index: 1;
+    position: relative;
+}
+.subscribe:after{
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    left: 0;
+    top: 0;
 }
 .form-control{
     border-radius: 0;
@@ -299,4 +314,38 @@ h1{
     font-weight: 700;
     border-color: #fff;
     background-color: #fff;
+}
+.subscribe .vira-btn:hover{
+    background-color: transparent;
+    color:#fff;
+}
+.contact .vira-card {
+    background-color: #f8f8f8;
+    padding: 35px 0;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 45px;
+}
+.contact .vira-card .vira-header {
+    margin-bottom: 15px;
+    font-size: 21px;
+    color: #51c2b9;
+}
+footer {
+    background-color: #202020;
+    text-align: center;
+    padding: 60px 0;
+}
+footer p {
+    font-size: 21px;
+    color: #fff;
+    margin-bottom: 0;
+}
+footer i {
+    color: #51c2b9;
+}
+footer a{
+    color:#fff;
+}
+footer a:hover{
+    color:#fff;
 }
