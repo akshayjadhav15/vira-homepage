@@ -156,6 +156,15 @@ h1{
     line-height: 120px;
     position: relative; 
 }
+.vira-card .vira-header .vira-icon:after {
+    transition: all 0.3s ease-in-out;
+}
+.vira-card:hover .vira-icon:after{
+    width: 120px;
+    height: 120px;
+    top:0;
+    left:0;
+}
 .vira-icon:after{
     content: '';
     height: 100px;
