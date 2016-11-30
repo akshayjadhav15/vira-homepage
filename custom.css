@@ -1,4 +1,3 @@
-
 *{
     margin:0;
     padding: 0;
@@ -276,8 +275,7 @@ h1{
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: 60%;
-    position: relative;
-   
+    position: relative;  
 }
 .subscribe div{
     z-index: 1;
