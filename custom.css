@@ -14,6 +14,9 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 35px;
     margin-top: 0;
 }
+a{
+    transition: 0.3s ease-in-out;
+}
 h3{
     font-size: 21px;
 }
@@ -78,8 +81,17 @@ p {
     color: #fff;
     font-size: 16px;
 }
+.c:after{
+    content: 'CLOSE';
+    position: absolute;
+    left: -65px;
+    top: 10px;
+    color: #fff;
+    font-size: 16px;
+}
 .menu{
   display: inline-block;
+  position: relative;
 }
 .vira-btn {
     border-color:#fff;
