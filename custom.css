@@ -40,10 +40,14 @@ p {
     text-align: center;
     font-size: 16px;
     text-transform: uppercase;
+    transition: 0.8s all ease-in-out;
 }
 .menu-item ul{
     padding-left: 0;
     margin-bottom: 0;
+}
+.menu-item ul li{
+    list-style: none;
 }
 .bg-img{
     background-image: url('img/main-bg.jpg');
@@ -63,7 +67,7 @@ p {
     margin-bottom: 0;
     border-radius: 0;
     border-color: transparent;
-    transition: all 0.3s ease-in-out;
+    
 }
 .navigation-bar {
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
@@ -92,6 +96,7 @@ p {
 .menu{
   display: inline-block;
   position: relative;
+  
 }
 .vira-btn {
     border-color:#fff;
